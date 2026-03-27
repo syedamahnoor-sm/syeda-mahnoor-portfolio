@@ -70,7 +70,7 @@ function Skills() {
                     </motion.div>
 
 
-                    {/* 🧱 Bento-Style Grid */}
+                    {/* Bento-Style Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                         {categories.map((cat, i) => (
                             <motion.div

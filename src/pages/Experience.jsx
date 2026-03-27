@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Briefcase, Calendar, ChevronRight } from "lucide-react";
 
+//Experience section showcasing professional and academic journey
 function Experience() {
     const experiences = [
         {
@@ -34,7 +35,7 @@ function Experience() {
             whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true, amount: 0.2 }} 
             transition={{ duration: 0.8, ease: "easeOut" }}
-            id="projects"
+            id="experience"
             className="py-20"
         >
             <section id="experience" className="relative py-32 isolate">
