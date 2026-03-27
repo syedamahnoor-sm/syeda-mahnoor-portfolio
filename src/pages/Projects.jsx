@@ -11,12 +11,6 @@ function Projects() {
             github: "https://github.com/syedamahnoor9e-eng/todo-mern",
             live: "https://todo-mern-lime-sigma.vercel.app",
         },
-        // {
-        //     title: "Spotify Clone",
-        //     tags: ["React", "Tailwind CSS", "Context API"],
-        //     description: "A modern music streaming interface with custom audio player logic and dynamic search capabilities.",
-        //     image: "/spotify.jpg",
-        // },
         {
             title: "Digital Logic Gate Simulator (OOP)",
             tags: ["C++", "OOP", "Digital Logic"],
@@ -37,9 +31,9 @@ function Projects() {
 
     return (
         <motion.section
-            initial={{ opacity: 0, y: 50 }} 
-            whileInView={{ opacity: 1, y: 0 }} 
-            viewport={{ once: true, amount: 0.2 }} 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             id="projects"
             className="py-20"
@@ -69,6 +63,13 @@ function Projects() {
                                 transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                                 className={`flex flex-col ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center gap-12`}
                             >
+                                {/* MOBILE ONLY TITLE: Appears at the very top on small screens */}
+                                <div className="w-full md:hidden mb-2">
+                                    <p className="text-purple-400 font-bold text-xs mb-2 tracking-widest">Featured Project</p>
+                                    <h3 className="text-3xl font-medium text-white tracking-tight leading-snug">{project.title}</h3>
+                                </div>
+
+                                {/* IMAGE BOX: Stays in middle on mobile, side on desktop */}
                                 <div className="relative w-full md:w-7/12 group">
                                     <div className="absolute inset-0 bg-purple-600/20 rounded-3xl blur-3xl opacity-0 group-hover:opacity-40 transition-all duration-700" />
                                     <div className="relative overflow-hidden rounded-3xl border-2 border-white/5 bg-white/5 aspect-video shadow-2xl transition-all group-hover:border-purple-500/10">
@@ -81,17 +82,21 @@ function Projects() {
                                     </div>
                                 </div>
 
+                                {/* CONTENT BOX: Title hidden on mobile here to prevent duplication */}
                                 <div className={`w-full md:w-5/12 flex flex-col ${i % 2 === 0 ? "items-start" : "items-start md:items-end text-left md:text-right"}`}>
-                                    <p className="text-purple-400 font-bold text-xs mb-2 tracking-widest">Featured Project</p>
-                                    <h3 className="text-3xl font-medium text-white mb-4 tracking-tight leading-snug">{project.title}</h3>
+                                    {/* DESKTOP ONLY TITLE */}
+                                    <div className="hidden md:block">
+                                        <p className="text-purple-400 font-bold text-xs mb-2 tracking-widest">Featured Project</p>
+                                        <h3 className="text-3xl font-medium text-white mb-4 tracking-tight leading-snug">{project.title}</h3>
+                                    </div>
 
-                                    <div className="relative z-10 p-7 rounded-2xl bg-white/3 backdrop-blur-2xl border border-white/10 shadow-2xl mb-7 transition-all hover:border-purple-500/30 hover:bg-white/5">
+                                    <div className="relative z-10 p-7 rounded-2xl bg-white/3 backdrop-blur-2xl border border-white/10 shadow-2xl mb-7 transition-all hover:border-purple-500/30 hover:bg-white/5 w-full">
                                         <p className="text-slate-400 leading-relaxed text-sm">
                                             {project.description}
                                         </p>
                                     </div>
 
-                                    <div className={`flex flex-wrap gap-2.5 mb-10 ${i % 2 !== 0 ? "justify-end" : ""}`}>
+                                    <div className={`flex flex-wrap gap-2.5 mb-10 ${i % 2 !== 0 ? "md:justify-end" : "justify-start"}`}>
                                         {project.tags.map((tag, index) => (
                                             <span key={index} className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400 bg-purple-950/20 px-3.5 py-1.5 rounded-full border border-purple-900/40">
                                                 {tag}
@@ -114,7 +119,8 @@ function Projects() {
                                                 className="flex items-center gap-2.5 px-6 py-2.5 rounded-full bg-purple-600/90 border border-purple-500/20 text-white shadow-lg shadow-purple-950/20 hover:bg-purple-500 hover:scale-105 transition-all duration-300">
                                                 <ExternalLink size={17} />
                                                 <span className="text-xs font-bold">Live Demo</span>
-                                            </a>)}
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
                             </motion.div>

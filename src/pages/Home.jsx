@@ -4,7 +4,10 @@ import avatar from "../assets/avatar.png";
 
 function Home() {
     return (
-        <section id="home" className="relative mx-auto max-w-6xl px-6 py-16 md:py-24 min-h-screen flex items-center">
+        <section 
+            id="home" 
+            className="relative mx-auto max-w-6xl px-6 pt-32 pb-16 md:py-24 min-h-screen flex items-center"
+        >
             {/* Background Ambient Glow */}
             <div className="pointer-events-none absolute inset-0 z-0">
                 <div
@@ -25,27 +28,24 @@ function Home() {
                         Software Engineer | MERN Stack Developer
                     </p>
 
-                    {/* ANIMATED HELLO LINE */}
+                    {/* ANIMATED HELLO LINE  */}
                     <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl text-white">
-                        <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl text-white">
-                            <span>Hello, I'm </span>
-                            <TypeAnimation
-                                sequence={[
-                                    'Syeda Mahnoor',
-                                    3000,
-                                    'a Developer',
-                                    3000,
-                                    'a MERN Specialist',
-                                    3000,
-                                ]}
-                                wrapper="span"
-                                speed={30}
-                                deletionSpeed={60}
-                                repeat={Infinity}
-                                className="text-[#7127ba] inline-block"
-                            />
-                        </h1>
-
+                        <span>Hello, I'm </span>
+                        <TypeAnimation
+                            sequence={[
+                                'Syeda Mahnoor',
+                                3000,
+                                'a Developer',
+                                3000,
+                                'a MERN Specialist',
+                                3000,
+                            ]}
+                            wrapper="span"
+                            speed={30}
+                            deletionSpeed={60}
+                            repeat={Infinity}
+                            className="text-[#7127ba] inline-block"
+                        />
                     </h1>
 
                     <p className="text-base leading-8 text-slate-300 sm:text-lg">
@@ -82,6 +82,7 @@ function Home() {
                                 alt="Syeda Mahnoor"
                                 className="w-64 sm:w-80 md:w-96 object-contain drop-shadow-[0_0_20px_rgba(124,58,237,0.4)]"
                             />
+                            
                             {/* DOODLE 1: Sparkle (Top Left)*/}
                             <motion.div
                                 animate={{
@@ -131,7 +132,7 @@ function Home() {
                 </div>
             </div>
 
-            {/* Subtle Scroll Indicator to fill vertical space */}
+            {/* Subtle Scroll Indicator */}
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:block">
                 <motion.div
                     animate={{ height: [40, 60, 40] }}
