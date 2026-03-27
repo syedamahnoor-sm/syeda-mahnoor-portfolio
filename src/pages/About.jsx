@@ -56,9 +56,8 @@ function About() {
                     </div>
                 </div>
 
-                {/* 🔥 RIGHT SIDE (EDUCATION & CARDS) */}
+                {/* RIGHT SIDE (EDUCATION & CARDS) */}
                 <div className="grid gap-6">
-                    {/* Education Card (Replaced floating icons) */}
                     <div className="group p-6 rounded-3xl bg-white/3 border border-white/10 backdrop-blur-xl hover:border-purple-500/30 transition-all duration-500">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-2xl bg-purple-500/10 text-purple-400 group-hover:scale-110 transition-transform">
@@ -89,7 +88,7 @@ function About() {
                 </div>
             </div>
 
-            {/* 🔥 PROMINENT STATS ROW (Bento Style) */}
+            {/* PROMINENT STATS ROW (Bento Style) */}
             <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[
                     { value: "5+", label: "Projects Completed" },

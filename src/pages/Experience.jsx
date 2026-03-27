@@ -30,9 +30,9 @@ function Experience() {
 
     return (
         <motion.section
-            initial={{ opacity: 0, y: 50 }} // Starts 50px lower and invisible
-            whileInView={{ opacity: 1, y: 0 }} // Fades up and in when scrolled to
-            viewport={{ once: true, amount: 0.2 }} // Only happens once; starts when 20% visible
+            initial={{ opacity: 0, y: 50 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
+            viewport={{ once: true, amount: 0.2 }} 
             transition={{ duration: 0.8, ease: "easeOut" }}
             id="projects"
             className="py-20"

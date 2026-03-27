@@ -55,7 +55,6 @@ function Skills() {
                         <h2 className="text-5xl md:text-6xl font-bold text-white tracking-tight">My Tech Stack</h2>
                     </div>
 
-                    {/* ⚡ OPENING SYNTAX: Add below your "My Tech Stack" heading */}
                     <motion.div
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -114,8 +113,6 @@ function Skills() {
                         ))}
                     </div>
 
-
-                    {/* ⚡ CLOSING SYNTAX: Add at the very end of your grid */}
                     <motion.div
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
