@@ -7,7 +7,7 @@ function Experience() {
         {
             company: "Arch Technologies",
             role: "Web Developer Intern",
-            duration: "March 2026 – Present",
+            duration: "March 2026 – April 2026",
             description: [
                 "Architecting full-stack web applications using the MERN stack.",
                 "Developing responsive, high-performance interfaces with React and Tailwind CSS.",
