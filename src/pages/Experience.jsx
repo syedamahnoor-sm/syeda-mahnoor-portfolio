@@ -38,7 +38,7 @@ function Experience() {
             id="experience"
             className="py-20"
         >
-            <section id="experience" className="relative py-32 isolate">
+            <section id="experience" className="relative pt-8 isolate">
                 <div className="absolute inset-0 -z-10 pointer-events-none">
                     <div className="absolute top-1/4 left-0 w-125 h-125 bg-purple-600/5 blur-[120px]" />
                 </div>

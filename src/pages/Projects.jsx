@@ -38,7 +38,7 @@ function Projects() {
             id="projects"
             className="py-20"
         >
-            <section id="projects" className="relative py-32 isolate overflow-hidden">
+            <section id="projects" className="relative pt-8 isolate overflow-hidden">
                 <div className="absolute inset-0 -z-10 pointer-events-none">
                     <div className="absolute top-[20%] -left-20 w-150 h-150 bg-purple-600/10 blur-[130px]" />
                     <div className="absolute bottom-[20%] -right-20 w-150 h-150 bg-indigo-600/10 blur-[130px]" />

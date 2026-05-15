@@ -46,7 +46,7 @@ function Skills() {
             id="skills"
             className="py-20"
         >
-            <section id="skills" className="relative py-32 isolate overflow-hidden">
+            <section id="skills" className="relative pt-8 isolate overflow-hidden">
                 <div className="max-w-6xl mx-auto px-6">
 
                     {/* Header */}

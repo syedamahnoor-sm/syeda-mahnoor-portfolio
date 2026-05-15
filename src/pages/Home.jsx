@@ -35,9 +35,7 @@ function Home() {
                             sequence={[
                                 'Syeda Mahnoor',
                                 3000,
-                                'a Developer',
-                                3000,
-                                'a MERN Specialist',
+                                'a Software Engineer',
                                 3000,
                             ]}
                             wrapper="span"
