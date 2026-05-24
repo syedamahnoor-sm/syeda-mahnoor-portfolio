@@ -9,31 +9,48 @@ function Skills() {
             title: "Frontend Development",
             icon: <Layers size={18} />,
             skills: [
-                { name: "React", icon: <Code2 size={20} /> },
+                { name: "React.js", icon: <Code2 size={20} /> },
                 { name: "Tailwind CSS", icon: <Globe size={20} /> },
-                { name: "JavaScript", icon: <Code2 size={20} /> },
+                { name: "HTML5 & CSS3", icon: <Globe size={20} /> },
             ],
             color: "from-blue-500/20"
         },
+
         {
-            title: "Backend & Database",
+            title: "Backend & APIs",
             icon: <Server size={18} />,
             skills: [
                 { name: "Node.js", icon: <Server size={20} /> },
                 { name: "Express.js", icon: <Server size={20} /> },
-                { name: "MongoDB", icon: <Database size={20} /> },
+                { name: "Flask", icon: <Server size={20} /> },
+                { name: "REST APIs", icon: <Server size={20} /> },
+                { name: "JWT Authentication", icon: <Server size={20} /> },
             ],
             color: "from-purple-500/20"
         },
+
         {
-            title: "Programming & Tools",
-            icon: <Cpu size={18} />,
+            title: "Databases",
+            icon: <Database size={18} />,
             skills: [
-                { name: "C++", icon: <Cpu size={20} /> },
-                { name: "Python", icon: <Cpu size={20} /> },
-                { name: "Git & GitHub", icon: <Github size={20} /> },
+                { name: "MongoDB", icon: <Database size={20} /> },
+                { name: "SQL Server", icon: <Database size={20} /> },
+                { name: "SQLite", icon: <Database size={20} /> },
             ],
             color: "from-indigo-500/20"
+        },
+
+        {
+            title: "Programming and Tools",
+            icon: <Cpu size={18} />,
+            skills: [
+                { name: "Python", icon: <Cpu size={20} /> },
+                { name: "C++", icon: <Cpu size={20} /> },
+                { name: "JavaScript", icon: <Code2 size={20} /> },
+                { name: "Git & GitHub", icon: <Github size={20} /> },
+                { name: "Postman", icon: <Cpu size={20} /> },
+            ],
+            color: "from-pink-500/20"
         }
     ];
 
@@ -71,7 +88,7 @@ function Skills() {
 
 
                     {/* Bento-Style Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
                         {categories.map((cat, i) => (
                             <motion.div
                                 key={i}

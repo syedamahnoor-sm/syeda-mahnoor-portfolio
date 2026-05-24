@@ -47,8 +47,7 @@ function Home() {
                     </h1>
 
                     <p className="text-base leading-8 text-slate-300 sm:text-lg">
-                        I am a passionate Software Engineer and build modern, scalable web applications using the MERN stack.
-                        I focus on writing clean, efficient code and developing practical software solutions.
+                        I build scalable full-stack applications and AI-powered solutions using modern web technologies, focusing on clean architecture, responsive design, and seamless user experiences.
                     </p>
 
                     <div className="mt-10 flex flex-wrap gap-4">

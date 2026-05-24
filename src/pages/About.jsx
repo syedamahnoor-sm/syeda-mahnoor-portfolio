@@ -36,13 +36,15 @@ function About() {
 
                     <div className="space-y-4 text-slate-300 leading-relaxed text-sm md:text-base">
                         <p>
-                           I am a Software Engineering student and full-stack developer focused on building scalable and user-centric web applications using the MERN stack. I enjoy transforming ideas into modern, high-performance digital products.
+                            I am a Software Engineering student and full-stack developer passionate about building scalable web applications and modern digital experiences using the MERN stack and contemporary web technologies.
                         </p>
+
                         <p>
-                            Currently, I am working as a Web Development Intern at Arch Technologies. I have strong foundations in C++ and Python, and I am continuously learning new technologies to grow as a developer.
+                            I enjoy working across both frontend and backend development, building responsive user interfaces, REST APIs, and real-world applications with technologies like React, Node.js, Express, MongoDB, Python, and Flask.
                         </p>
+
                         <p className="text-slate-400 italic">
-                            My goal is to build impactful digital experiences while continuously growing in software engineering, AI integration, and modern web technologies.
+                            Currently exploring AI-powered applications, intelligent automation workflows, and modern software engineering practices while continuously improving my problem-solving and development skills.
                         </p>
                     </div>
 
@@ -67,7 +69,7 @@ function About() {
                                 <h3 className="text-lg font-bold text-white mb-1">Education</h3>
                                 <p className="text-sm text-purple-400 font-medium mb-2">Bachelor of Software Engineering</p>
                                 <p className="text-[13px] text-slate-500 leading-relaxed">
-                                   Currently pursuing a Bachelor's degree in Software Engineering while building full-stack and AI-powered applications focused on modern web technologies and real-world problem solving.
+                                    Currently pursuing a Bachelor's degree in Software Engineering while developing full-stack applications, AI-integrated projects, and scalable software solutions focused on real-world problem solving.
                                 </p>
                             </div>
                         </div>
@@ -82,7 +84,7 @@ function About() {
                         <div className="p-5 rounded-2xl bg-white/2 border border-white/5 hover:border-purple-500/20 transition-all">
                             <Globe className="text-purple-500 mb-3" size={20} />
                             <h4 className="text-white font-semibold text-sm mb-1">Problem Solving</h4>
-                            <p className="text-[13px] text-slate-500">Algorithmic efficiency in C++ and Python.</p>
+                            <p className="text-[13px] text-slate-500">Strong foundations in DSA, OOP, and scalable application logic.</p>
                         </div>
                     </div>
                 </div>
