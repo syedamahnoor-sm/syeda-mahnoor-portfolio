@@ -47,7 +47,7 @@ function About() {
                     </div>
 
                     <div className="mt-8 flex gap-4">
-                        <a href="/Syeda-Mahnoor-Resume.pdf"
+                        <a href="/Syeda_Mahnoor_Resume.pdf"
                             download="Syeda_Mahnoor_Resume.pdf"
                             className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-[#2B0F4C] to-[#3E1A6B] border border-[#7A4FCB]/50 px-6 py-3 text-sm font-semibold text-white transition hover:shadow-[0_0_20px_rgba(122,79,203,0.4)] hover:-translate-y-0.5"
                         >
