@@ -36,18 +36,18 @@ function About() {
 
                     <div className="space-y-4 text-slate-300 leading-relaxed text-sm md:text-base">
                         <p>
-                            I am a Software Engineer focused on building scalable web applications using the MERN stack. I enjoy solving real-world problems and turning ideas into functional, high-performance products.
+                           I am a Software Engineering student and full-stack developer focused on building scalable and user-centric web applications using the MERN stack. I enjoy transforming ideas into modern, high-performance digital products.
                         </p>
                         <p>
                             Currently, I am working as a Web Development Intern at Arch Technologies. I have strong foundations in C++ and Python, and I am continuously learning new technologies to grow as a developer.
                         </p>
                         <p className="text-slate-400 italic">
-                            My goal is to build impactful digital products that contribute to real-world solutions.
+                            My goal is to build impactful digital experiences while continuously growing in software engineering, AI integration, and modern web technologies.
                         </p>
                     </div>
 
                     <div className="mt-8 flex gap-4">
-                        <a href="/syeda-mahnoor-resume.pdf"
+                        <a href="/Syeda-Mahnoor-Resume.pdf"
                             download="Syeda_Mahnoor_Resume.pdf"
                             className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-[#2B0F4C] to-[#3E1A6B] border border-[#7A4FCB]/50 px-6 py-3 text-sm font-semibold text-white transition hover:shadow-[0_0_20px_rgba(122,79,203,0.4)] hover:-translate-y-0.5"
                         >
@@ -67,7 +67,7 @@ function About() {
                                 <h3 className="text-lg font-bold text-white mb-1">Education</h3>
                                 <p className="text-sm text-purple-400 font-medium mb-2">Bachelor of Software Engineering</p>
                                 <p className="text-[13px] text-slate-500 leading-relaxed">
-                                    Currently pursuing my degree, focusing on advanced algorithms, network protocols, and full-stack architecture.
+                                   Currently pursuing a Bachelor's degree in Software Engineering while building full-stack and AI-powered applications focused on modern web technologies and real-world problem solving.
                                 </p>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ function About() {
                 {[
                     { value: "5+", label: "Projects Completed" },
                     { value: "MERN", label: "Primary Stack" },
-                    { value: "Intern", label: "Arch Tech" },
+                    { value: "AI", label: "Exploration" },
                     { value: "2028", label: "Graduating Year" },
                 ].map((stat, i) => (
                     <div key={i} className="group p-6 rounded-3xl bg-white/2 border border-white/5 backdrop-blur-sm text-center hover:bg-white/4 hover:border-purple-500/30 transition-all duration-500">
