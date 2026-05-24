@@ -7,7 +7,7 @@ function Projects() {
             title: "MERN Task Management App",
             tags: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
             description: "A full-stack task management application built with the MERN stack, featuring user authentication, role-based access (admin/user), and advanced task handling such as editing, filtering, due dates, and completion tracking. Designed for efficient productivity and real-time task organization.",
-            image: "/TaskManager.jpeg",
+            image: "/TaskManager.png",
             github: "https://github.com/syedamahnoor-sm/todo-mern",
             live: "https://todo-mern-lime-sigma.vercel.app",
         },
@@ -15,7 +15,7 @@ function Projects() {
             title: "Spotify Clone",
             tags: ["HTML", "CSS3", "Javascript", "Node.js", "MongoDB"],
             description: "A modern Spotify-inspired music streaming web application built with HTML, CSS, Vanilla JavaScript, Node.js, Express, and MongoDB. The project features dynamic song loading, real-time search, playlist management, responsive UI design, and a fully functional audio player with playback controls, volume handling, and seamless user experience across desktop and mobile devices.",
-            image: "/Spotify.jpeg",
+            image: "/Spotify.png",
             github: "https://github.com/syedamahnoor-sm/spotify-clone",
             live: "https://spotify-clone-lac-xi.vercel.app"
         },
@@ -23,7 +23,7 @@ function Projects() {
             title: "VidSnapAI",
             tags: ["Python","Flask","FFmpeg","SQlite","AI"],
             description: "VidSnapAI is an AI-powered reel generation platform built with Flask, SQLite, FFmpeg, and Microsoft Edge-TTS that converts text and images into short-form vertical videos with automated voice narration and dynamic reel processing.",
-            image: "/VidsnapAI.jpeg",
+            image: "/VidsnapAI.png",
             github: "https://github.com/syedamahnoor-sm/VidSnapAI",
             live: "https://vidsnapai-ln8l.onrender.com"
         },
@@ -31,7 +31,7 @@ function Projects() {
         title: "Connectify",
         tags: ["React","Node.js","Express","MongoDB"],
         description: "Connectify is a full-stack MERN social media platform featuring JWT authentication, post sharing, media     uploads, and real-time user interactions with a responsive modern UI and scalable REST API architecture.",
-        image: "/Connectify.jpeg",
+        image: "/Connectify.png",
         github: "https://github.com/syedamahnoor-sm/Connectify",
         live: "https://connectify-gray.vercel.app"
         },
@@ -43,14 +43,14 @@ function Projects() {
             github: "https://github.com/syedamahnoor-sm/logic-gate-simulator",
             live: "#"
         },
-        {
-            title: "Job Application Analyzer (DSA)",
-            tags: ["C++", "Algorithms", "Data Structures"],
-            description: "A C++ application that analyzes job application data using Data Structures and Algorithms concepts to process, filter, and evaluate candidate information efficiently. Demonstrates practical use of sorting, searching, and data handling techniques.",
-            image: "/job-application.png",
-            github: "https://github.com/syedamahnoor-sm/job-application-analyzer",
-            live: "#"
-        }
+        // {
+        //     title: "Job Application Analyzer (DSA)",
+        //     tags: ["C++", "Algorithms", "Data Structures"],
+        //     description: "A C++ application that analyzes job application data using Data Structures and Algorithms concepts to process, filter, and evaluate candidate information efficiently. Demonstrates practical use of sorting, searching, and data handling techniques.",
+        //     image: "/job-application.png",
+        //     github: "https://github.com/syedamahnoor-sm/job-application-analyzer",
+        //     live: "#"
+        // }
     ];
 
     return (
