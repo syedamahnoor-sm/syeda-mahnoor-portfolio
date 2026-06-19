@@ -19,21 +19,21 @@ function Projects() {
             github: "https://github.com/syedamahnoor-sm/spotify-clone",
             live: "https://spotify-clone-lac-xi.vercel.app"
         },
-          {
+        {
             title: "VidSnapAI",
-            tags: ["Python","Flask","FFmpeg","SQlite","AI"],
+            tags: ["Python", "Flask", "FFmpeg", "SQlite", "AI"],
             description: "VidSnapAI is an AI-powered reel generation platform built with Flask, SQLite, FFmpeg, and Microsoft Edge-TTS that converts text and images into short-form vertical videos with automated voice narration and dynamic reel processing.",
             image: "/VidsnapAI.png",
             github: "https://github.com/syedamahnoor-sm/VidSnapAI",
             live: "https://vidsnapai-ln8l.onrender.com"
         },
         {
-        title: "Connectify",
-        tags: ["React","Node.js","Express","MongoDB"],
-        description: "Connectify is a full-stack MERN social media platform featuring JWT authentication, post sharing, media     uploads, and real-time user interactions with a responsive modern UI and scalable REST API architecture.",
-        image: "/Connectify.png",
-        github: "https://github.com/syedamahnoor-sm/Connectify",
-        live: "https://connectify-gray.vercel.app"
+            title: "Connectify",
+            tags: ["React", "Node.js", "Express", "MongoDB"],
+            description: "Connectify is a full-stack MERN social media platform featuring JWT authentication, post sharing, media     uploads, and real-time user interactions with a responsive modern UI and scalable REST API architecture.",
+            image: "/Connectify.png",
+            github: "https://github.com/syedamahnoor-sm/Connectify",
+            live: "https://connectify-gray.vercel.app"
         },
         {
             title: "Digital Logic Gate Simulator (OOP)",
@@ -43,24 +43,23 @@ function Projects() {
             github: "https://github.com/syedamahnoor-sm/logic-gate-simulator",
             live: "#"
         },
-        // {
-        //     title: "Job Application Analyzer (DSA)",
-        //     tags: ["C++", "Algorithms", "Data Structures"],
-        //     description: "A C++ application that analyzes job application data using Data Structures and Algorithms concepts to process, filter, and evaluate candidate information efficiently. Demonstrates practical use of sorting, searching, and data handling techniques.",
-        //     image: "/job-application.png",
-        //     github: "https://github.com/syedamahnoor-sm/job-application-analyzer",
-        //     live: "#"
-        // }
+        {
+            title: "Job Application Analyzer (DSA)",
+            tags: ["C++", "Algorithms", "Data Structures"],
+            description: "A C++ application that analyzes job application data using Data Structures and Algorithms concepts to process, filter, and evaluate candidate information efficiently. Demonstrates practical use of sorting, searching, and data handling techniques.",
+            image: "/job-application.png",
+            github: "https://github.com/syedamahnoor-sm/job-application-analyzer",
+            live: "#"
+        }
     ];
 
     return (
         <motion.section
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4 }}
             id="projects"
-            className="py-20"
         >
             <section id="projects" className="relative pt-8 isolate overflow-hidden">
                 <div className="absolute inset-0 -z-10 pointer-events-none">
@@ -81,10 +80,10 @@ function Projects() {
                         {projects.map((project, i) => (
                             <motion.div
                                 key={i}
-                                initial={{ opacity: 0, y: 50 }}
+                                initial={{ opacity: 0, y: 30 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, amount: 0.3 }}
-                                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                                 className={`flex flex-col ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center gap-12`}
                             >
                                 {/* MOBILE ONLY TITLE: Appears at the very top on small screens */}
