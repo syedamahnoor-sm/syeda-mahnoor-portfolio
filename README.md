@@ -44,31 +44,6 @@ portfolio-website/
 └── vite.config.js
 ```
 
----
-
-## ⚙️ Setup
-
-```bash
-git clone https://github.com/syedamahnoor9e-eng/syeda-mahnoor-portfolio.git
-cd portfolio-website
-npm install
-npm run dev
-```
-
----
-
-## 🔐 Environment Variables
-
-Create a `.env` file:
-
-```
-VITE_SERVICE_ID=your_service_id
-VITE_TEMPLATE_ID=your_template_id
-VITE_PUBLIC_KEY=your_public_key
-```
-
----
-
 ## 📄 Resume
 
 Download available directly from the portfolio.
